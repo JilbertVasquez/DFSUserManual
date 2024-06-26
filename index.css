@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 2%;
+}
+
+.abstract {
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+
+
+.abstract h1{
+    font-size: 34px;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+    
+}
+
+.abstract h2 {
+    font-size: 28px;
+    padding: 2%;
+}
+
+.abstract p {
+    text-indent: 5%;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+
+.faculty_staff h1 {
+    font-size: 34px;
+    margin: auto;
+    padding: 2%;
+}
+
+.faculty_staff h2 {
+    font-size: 28px;
+    padding: 2%;
+}
+
+.faculty_staff img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
+
+.faculty_staff p {
+    text-indent: 5%;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+    padding: 5%;
+}
+

@@ -229,7 +229,6 @@ footer {
 @media only screen and (max-width: 400px) {
     .naviagation {
         height: 5vh;
-        background-color: red;
     }
 
     .links {

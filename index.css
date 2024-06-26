@@ -147,7 +147,6 @@ footer {
 
     .abstract h1{
         font-size: 26px;
-        color: aqua;
     }
     
     .abstract h2 {
@@ -185,7 +184,7 @@ footer {
         position: fixed;
         z-index: 9999;
         width: 100%;
-        height: 4vh;
+        height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -219,5 +218,71 @@ footer {
     .abstract p{
         margin-top: 10%;
         font-size: 18px;
+    }
+    .faculty_staff img, .administrator img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .naviagation {
+        height: 5vh;
+        background-color: red;
+    }
+
+    .links {
+        justify-content: space-around;
+    }
+
+    .links a {
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 12px;
+    }
+
+    .abstract {
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .abstract h1{
+        font-size: 16px;
+        margin-top: 20%;
+    }
+    
+    .abstract h2 {
+        font-size: 14px;
+        padding: 2%;
+    }
+    
+    .abstract p {
+        font-size: 12px;
+        padding-bottom: 0%;
+    }
+
+    .faculty_staff h1, .administrator h1 {
+        font-size: 14px;
+        margin: auto;
+
+    }
+    
+    .faculty_staff h2, .administrator h2 {
+        font-size: 12px;
+    }
+    
+    .faculty_staff img, .administrator img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .faculty_staff p, .administrator p {
+        font-size: 10px;
+    }
+    
+    footer {
+        font-size: 8px;
     }
 }

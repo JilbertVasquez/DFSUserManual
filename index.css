@@ -179,7 +179,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
     .naviagation {
         position: fixed;
         z-index: 9999;
@@ -226,7 +226,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 1290px) {
     .naviagation {
         height: 5vh;
     }
